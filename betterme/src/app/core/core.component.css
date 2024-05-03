@@ -1,0 +1,38 @@
+.core{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.coreLeft>{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.coreLeftImg>Img{
+    height: 30rem;
+    padding-right: 8rem;
+}
+.coreLine {
+    border-left: 0.3rem solid #94B8ED;
+    height: 20rem;
+    border-radius: 3px;
+}
+.coreRight, .coreRight>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.4rem;
+    padding: 3rem;
+}
+.coreRight>form>input{
+    height: 3rem;
+    width: 25rem;
+    font-size: large;
+    padding-left: 1rem;
+    border-radius: 2.5rem;
+    border:2px solid #94B8ED;
+    background-color: white;
+}
